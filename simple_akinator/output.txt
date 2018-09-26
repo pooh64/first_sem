@@ -1,0 +1,98 @@
+("meow?"
+	("green?"
+		("moo?"
+			("water animal?"
+				("without mass?"
+					("bird?"
+						("student?"
+							("animal?"
+								("labnik?"
+									("made by Ipatov?"
+										("institut?"
+											("Bek"
+											)
+											("MIPT"
+											)
+										)
+										("tupaya laba"
+										)
+									)
+									("Ipatov"
+									)
+								)
+								("squirrel"
+								)
+							)
+							("bodybuilder?"
+								("guitar fan?"
+									("Jenya"
+									)
+									("Roma"
+									)
+								)
+								("Bashir"
+								)
+							)
+						)
+						("penguin"
+						)
+					)
+					("photon"
+					)
+				)
+				("clever?"
+					("liquid?"
+						("big?"
+							("fish"
+							)
+							("whale"
+							)
+						)
+						("octopus"
+						)
+					)
+					("dolphin"
+					)
+				)
+			)
+			("cow"
+			)
+		)
+		("quaa?"
+			("garden plant?"
+				("annoying?"
+					("tasty?"
+						("a student?"
+							("crocodile"
+							)
+							("ka bear?"
+								("Seva"
+								)
+								("Vanya"
+								)
+							)
+						)
+						("green tea"
+						)
+					)
+					("written by Bek?"
+						("zadachnik mataan"
+						)
+						("zadachnik linaal"
+						)
+					)
+				)
+				("bush"
+				)
+			)
+			("frog"
+			)
+		)
+	)
+	("small?"
+		("cat"
+		)
+		("kitten"
+		)
+	)
+)

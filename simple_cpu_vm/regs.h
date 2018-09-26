@@ -1,0 +1,4 @@
+REG(AX)
+REG(BX)
+REG(CX)
+REG(DX)

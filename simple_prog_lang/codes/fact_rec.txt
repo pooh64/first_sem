@@ -1,0 +1,14 @@
+func fact(var x)
+(
+	@ if(x < 2) (ret 1)
+ 	@ ret x * fact(x - 1)
+)
+
+func main()
+(
+	@ var a
+	@ input a
+	@ print fact(a)
+	@ ret 0
+)
+

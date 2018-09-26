@@ -1,0 +1,82 @@
+digraph dump {
+    node [shape = record];
+89200464 [shape = record, label = "{data: @|ptr: 0x5511750|type: OPERATOR|left: 0x5510af0|right: 0x55116f0}"];
+89200464 -> 89197296
+89197296 [shape = record, label = "{data: 1|ptr: 0x5510af0|type: FUNCTION|left: 0x5510a30|right: 0x5510a90}"];
+89197296 -> 89197104
+89197104 [shape = record, label = "{data: @|ptr: 0x5510a30|type: OPERATOR|left: (nil)|right: 0x55109d0}"];
+89197008 [shape = record, label = "{data: ret|ptr: 0x55109d0|type: OPERATOR|left: 0x5510970|right: (nil)}"];
+89197008 -> 89196912
+89196912 [shape = record, label = "{data: /|ptr: 0x5510970|type: OPERATOR|left: 0x55108b0|right: 0x5510910}"];
+89196912 -> 89196720
+89196720 [shape = record, label = "{data: 1|ptr: 0x55108b0|type: NUMBER|left: (nil)|right: (nil)}"];
+89196816 [shape = record, label = "{data: 0|ptr: 0x5510910|type: VARIABLE|left: (nil)|right: (nil)}"];
+89196912 -> 89196816
+89197104 -> 89197008
+89197200 [shape = record, label = "{data: 1|ptr: 0x5510a90|type: NUMBER|left: (nil)|right: (nil)}"];
+89197296 -> 89197200
+89200368 [shape = record, label = "{data: 0|ptr: 0x55116f0|type: FUNCTION|left: 0x5511630|right: 0x5511690}"];
+89200368 -> 89200176
+89200176 [shape = record, label = "{data: @|ptr: 0x5511630|type: OPERATOR|left: 0x5511510|right: 0x55115d0}"];
+89200176 -> 89199888
+89199888 [shape = record, label = "{data: @|ptr: 0x5511510|type: OPERATOR|left: 0x5510d30|right: 0x55114b0}"];
+89199888 -> 89197872
+89197872 [shape = record, label = "{data: @|ptr: 0x5510d30|type: OPERATOR|left: (nil)|right: 0x5510cd0}"];
+89197776 [shape = record, label = "{data: =|ptr: 0x5510cd0|type: OPERATOR|left: 0x5510b50|right: 0x5510c70}"];
+89197776 -> 89197392
+89197392 [shape = record, label = "{data: 0|ptr: 0x5510b50|type: VARIABLE|left: (nil)|right: (nil)}"];
+89197680 [shape = record, label = "{data: -|ptr: 0x5510c70|type: OPERATOR|left: 0x5510c10|right: 0x5510bb0}"];
+89197680 -> 89197584
+89197584 [shape = record, label = "{data: 0|ptr: 0x5510c10|type: NUMBER|left: (nil)|right: (nil)}"];
+89197488 [shape = record, label = "{data: 5|ptr: 0x5510bb0|type: NUMBER|left: (nil)|right: (nil)}"];
+89197680 -> 89197488
+89197776 -> 89197680
+89197872 -> 89197776
+89199792 [shape = record, label = "{data: while|ptr: 0x55114b0|type: OPERATOR|left: 0x5510e50|right: 0x5511450}"];
+89199792 -> 89198160
+89198160 [shape = record, label = "{data: IA|ptr: 0x5510e50|type: OPERATOR|left: 0x5510d90|right: 0x5510df0}"];
+89198160 -> 89197968
+89197968 [shape = record, label = "{data: 0|ptr: 0x5510d90|type: VARIABLE|left: (nil)|right: (nil)}"];
+89198064 [shape = record, label = "{data: 6|ptr: 0x5510df0|type: NUMBER|left: (nil)|right: (nil)}"];
+89198160 -> 89198064
+89199696 [shape = record, label = "{data: @|ptr: 0x5511450|type: OPERATOR|left: 0x5511210|right: 0x55113f0}"];
+89199696 -> 89199120
+89199120 [shape = record, label = "{data: @|ptr: 0x5511210|type: OPERATOR|left: (nil)|right: 0x55111b0}"];
+89199024 [shape = record, label = "{data: if|ptr: 0x55111b0|type: OPERATOR|left: 0x5510f70|right: 0x5511150}"];
+89199024 -> 89198448
+89198448 [shape = record, label = "{data: !=|ptr: 0x5510f70|type: OPERATOR|left: 0x5510eb0|right: 0x5510f10}"];
+89198448 -> 89198256
+89198256 [shape = record, label = "{data: 0|ptr: 0x5510eb0|type: VARIABLE|left: (nil)|right: (nil)}"];
+89198352 [shape = record, label = "{data: 0|ptr: 0x5510f10|type: NUMBER|left: (nil)|right: (nil)}"];
+89198448 -> 89198352
+89198928 [shape = record, label = "{data: @|ptr: 0x5511150|type: OPERATOR|left: (nil)|right: 0x55110f0}"];
+89198832 [shape = record, label = "{data: print|ptr: 0x55110f0|type: OPERATOR|left: 0x5511090|right: (nil)}"];
+89198832 -> 89198736
+89198736 [shape = record, label = "{data: 1|ptr: 0x5511090|type: FUNCCALL|left: 0x5510fd0|right: 0x5511030}"];
+89198736 -> 89198544
+89198544 [shape = record, label = "{data: 0|ptr: 0x5510fd0|type: VARIABLE|left: (nil)|right: (nil)}"];
+89198640 [shape = record, label = "{data: 1|ptr: 0x5511030|type: NUMBER|left: (nil)|right: (nil)}"];
+89198736 -> 89198640
+89198928 -> 89198832
+89199024 -> 89198928
+89199120 -> 89199024
+89199600 [shape = record, label = "{data: =|ptr: 0x55113f0|type: OPERATOR|left: 0x5511270|right: 0x5511390}"];
+89199600 -> 89199216
+89199216 [shape = record, label = "{data: 0|ptr: 0x5511270|type: VARIABLE|left: (nil)|right: (nil)}"];
+89199504 [shape = record, label = "{data: +|ptr: 0x5511390|type: OPERATOR|left: 0x55112d0|right: 0x5511330}"];
+89199504 -> 89199312
+89199312 [shape = record, label = "{data: 0|ptr: 0x55112d0|type: VARIABLE|left: (nil)|right: (nil)}"];
+89199408 [shape = record, label = "{data: 1|ptr: 0x5511330|type: NUMBER|left: (nil)|right: (nil)}"];
+89199504 -> 89199408
+89199600 -> 89199504
+89199696 -> 89199600
+89199792 -> 89199696
+89199888 -> 89199792
+89200080 [shape = record, label = "{data: ret|ptr: 0x55115d0|type: OPERATOR|left: 0x5511570|right: (nil)}"];
+89200080 -> 89199984
+89199984 [shape = record, label = "{data: 0|ptr: 0x5511570|type: NUMBER|left: (nil)|right: (nil)}"];
+89200176 -> 89200080
+89200272 [shape = record, label = "{data: 1|ptr: 0x5511690|type: NUMBER|left: (nil)|right: (nil)}"];
+89200368 -> 89200272
+89200464 -> 89200368
+}

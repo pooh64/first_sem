@@ -1,0 +1,17 @@
+func div(var x)
+(
+	@ ret 1/x
+)
+
+func main()
+(
+	@ var a
+	@ a = - 5
+	@ while(a < 6)
+	(
+		@ if(a != 0)( @ print div(a))
+		@ a = a + 1
+	)
+	@ ret 0
+)
+
